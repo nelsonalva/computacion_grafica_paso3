@@ -12,7 +12,7 @@ public class Ventana extends JFrame {
     public Ventana() {
         // DISEÑO
         setTitle("Abeja - Por Nelson Álvarez");
-        setSize(700, 900);
+        setSize(500, 500);
         setVisible(true);
         setResizable(true);
         setDefaultCloseOperation(EXIT_ON_CLOSE);

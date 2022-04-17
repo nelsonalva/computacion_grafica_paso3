@@ -22,12 +22,12 @@ public class Panel extends JPanel {
         Abeja.drawLine(drawer, 90, 340, 320, 340, Color.BLACK);
         Abeja.drawLine(drawer, 90, 430, 320, 430, Color.BLACK);
         
-        // Cuerpo lápiz
+        // Punta mayor lápiz
         int[] xValuesPencil = {320, 370, 320, 310};
         int[] yValuesPencil = {340, 385, 430, 385};
         Abeja.drawPolygon(drawer, xValuesPencil, yValuesPencil, Color.BLACK, xValuesPencil.length, false);
 
-        // Punta lápiz
+        // Punta menor lápiz
         int[] xValuesPointer = {350, 370, 350, 345};
         int[] yValuesPointer = {370, 385, 400, 385};
         Abeja.drawPolygon(drawer, xValuesPointer, yValuesPointer, Color.BLACK, xValuesPointer.length, true);
@@ -40,8 +40,6 @@ public class Panel extends JPanel {
         // ALAS
         Abeja.drawTiltedEllipse(drawer, 90, 40, 80, 160, Color.BLACK, false, 140);
         Abeja.drawTiltedEllipse(drawer, 190, 40, 80, 160, Color.BLACK, false, 10);
-
-
 
         // CUERPO
         Abeja.drawEllipse(drawer, 50, 160, 280, 190, Color.YELLOW, true);

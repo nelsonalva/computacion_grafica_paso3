@@ -64,7 +64,7 @@ public class Panel extends JPanel {
         int[] xValuesRArm = {310, 440, 460, 330, 310};
         int[] yValuesRArm = {500, 480, 500, 560, 500};
         Brujita.drawPolygon(drawer, xValuesRArm, yValuesRArm, Color.MAGENTA, xValuesRArm.length, true);
-        // Mano izquierda
+        // Mano derecha
         int[] xValuesRHand = {440, 460, 460, 480, 500, 460, 440};
         int[] yValuesRHand = {440, 440, 460, 440, 480, 500, 480};
         Brujita.drawPolygon(drawer, xValuesRHand, yValuesRHand, Color.GREEN, xValuesRHand.length, true);
